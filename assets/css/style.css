@@ -1,0 +1,59 @@
+body {
+    background-image: url("vertical-waves.png");
+}
+
+#menu {
+    background-color: #ffffff;
+    height: 60px;
+    width: 960px;
+    overflow: auto;
+    margin: 0 0 10px 60px;
+}
+
+#daniel {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    height: 60px;
+    width: 120px;
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+}
+
+#links {
+    color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    line-height: 60px;
+    display: inline-block;
+    float: right;
+}
+
+#content {
+    background-color: #ffffff;
+    width: 930px;
+    /* ^ subtracting the padding of other elements from the total pixel width */
+    margin: 0 0 20px 60px;
+    padding: 10px;
+    border-color: #dddddd;
+    border-style: solid;
+}
+
+#picture {
+    width: 300px;
+    float: left;
+    padding: 0 10px 0 0;
+}
+
+#footer {
+    background-color: #666666;
+    color: #777777;
+    height: 60px;
+    width: 960px;
+    text-align: center;
+    margin: 0 0 0 60px;
+    /* ^ this is forcing the menu bar div to not start in the top left of the browser and to indent first */
+    float: left;    
+}
+
+/* https://www.w3schools.com/css/css_align.asp */
