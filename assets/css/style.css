@@ -50,6 +50,7 @@ body {
     border-style: solid;
     color: #777777;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 #picture {
@@ -65,8 +66,8 @@ body {
     width: 100%;
     height: 60px;
     text-align: center;
-    float: left;
-    vertical-align: text-bottom;    
+    position: fixed;
+    bottom: 0;    
 }
 
 h1 {
