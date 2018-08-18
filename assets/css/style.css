@@ -3,7 +3,7 @@ body {
 }
 
 #topborder {
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 2px solid #dddddd;
     margin: 0 0 30px 0;
 }
 
@@ -66,6 +66,51 @@ body {
 h1 {
     color: #4aaaa5;
 }
+
+.thumbnails {
+    position: relative;
+    overflow: auto;
+    display: inline-block;
+    margin: 20px 20px 20px 0;
+}
+
+.picture {
+    height: 200px;
+}
+
+.hangman {
+    position: absolute;
+    top: 140px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    vertical-align: middle;
+    line-height: 40px;
+    /* ^ this is vertically centering the text */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#pug {
+    height: 150px;
+}
+
+#rpg {
+    position: absolute;
+    top: 100px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 210px;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 25px;
+    /* ^ this is vertically centering the text */
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
 
 
 /* https://www.w3schools.com/css/css_align.asp */
